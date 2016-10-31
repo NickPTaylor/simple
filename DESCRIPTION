@@ -1,0 +1,16 @@
+Package: simple
+Type: Package
+Title: Develop shiny within a package
+Version: 0.0.0.9000
+Authors@R: person("Nick", "Taylor", email = "nicholas.taylor@doosan.com", 
+    role = c("cre", "aut"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: A simple shiny app contained within a package.
+    This is a proof of concept demononstration.
+License: file LICENCE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    shiny (>= 0.13.2),
+    testthat
+RoxygenNote: 5.0.1
