@@ -12,5 +12,6 @@ Encoding: UTF-8
 LazyData: true
 Suggests:
     shiny (>= 0.13.2),
-    testthat
+    testthat,
+    covr
 RoxygenNote: 5.0.1

@@ -8,7 +8,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' launch_application()
+#' }
 launch_application <- function(...) {
     shiny::runApp(appDir = system.file("application", package = "simple"),
                   ...)

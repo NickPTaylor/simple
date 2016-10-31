@@ -14,6 +14,8 @@ This is a wrapper function for launching the 'application' shiny app in this
 package.
 }
 \examples{
+\dontrun{
 launch_application()
+}
 }
 
